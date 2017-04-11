@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+  body          {font-family: 'メイリオ',
+                'Hiragino Kaku Gothic Pro', sans-serif}
+
+/* サイト名 */
+  .site h1 a    {color: #000000;
+                text-decoration: none}
+  .site h1      {margin: 0;
+                font-size: 30px}
+  .site p       {margin: 0;
+                font-size: 12px}
+/* 記事 */
+  .news h1      {margin-top: 0;
+                margin-bottom: 20px;
+                font-size: 36px}
+  .news p       {margin-top: 0;
+                margin-bottom: 20px}
+
+/* メニュー (縦並び) */
+  .menu ul      {margin: 0;
+                padding: 0;
+                list-style: none}
+  .menu li a    {display: block;
+                padding: 5px;
+                color: #000000;
+                font-size: 14px;
+                text-decoration: none}
+  .menu li a:hover  {background-color: #eeeeee}
+  .menu li:after    {content: "";
+                    display: block;
+                    clear: both}
+  .menu li          {float: left;
+                    width: auto}
+/* コピーライト */
+  .copyright p      {margin: 0;
+                    color: #666666;
+                    font-size: 14px}
